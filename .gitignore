@@ -1,0 +1,44 @@
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+
+# Environment Files
+.env
+.env.backup
+.env.production
+
+# PHPUnit Caches
+.phpunit.result.cache
+
+# Homestead and Environment-Specific Configs
+Homestead.json
+Homestead.yaml
+auth.json
+
+# Logs and Debug Files
+npm-debug.log
+yarn-error.log
+
+# IDE/Editor Configurations
+/.fleet
+/.idea
+/.vscode
+
+# Docker-related
+docker-compose.override.yml
+.docker
+
+# Laravel Cache/Session/Logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+/storage/logs
+
+# Compiled assets (optional if you store built assets in version control)
+public/js
+public/css
+public/mix-manifest.json
